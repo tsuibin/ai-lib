@@ -26,21 +26,21 @@
 	<div class="row">
     	<div id="upper-nav-links">
         	<ul>
-           	<li><a href="#" id="change_to_chinese">中文</a></li>    
+           	<li><a href="#" id="change_to_chinese">中文</a></li>
             <li><a href="#" id="change_to_english">ENGLISH</a></li>
-            <li><a href="http://planet.linuxdeepin.com">Blog</a></li>      
+            <li><a href="#">Blog</a></li>      
             </ul>
         </div>
 </div>
 </section>
- 	
+
 <nav id="main-nav" class="row">
 
-  	
+
     <div id="logo" class="columns" style="width:33%">
     	<a href=""><img src="img/logo.png" alt="Formstack Online Form Builder"></a>
     </div>
-    
+
 	<div id="site-links" class="columns" style="width:42%">
     	<ul class="nav-bar" id="mobile-submenu">
   			<li ><a href="index.en.html">Home</a></li>
@@ -52,18 +52,18 @@
                 </ul>
             </li>
             <li><a href="download.en.html">Download</a></li>
-   			
+
    			<li><a href="business.en.html">Business</a></li>
 		</ul>
     </div>
-    
+
     <div id="trial-login" class="three columns">
 	<a href="http://www.twitter.com/linuxdeepin" class="button orange login">Twitter</a>
         <a href="http://www.linuxdeepin.com/download.en.html" class="button green trial">Try now!</a>
  	</div>
-    
+
 </nav>
- 
+
 </header>
 
 <section class="darkgray hero" style="padding:0;">
@@ -82,7 +82,7 @@
 			<ul class="dropdown">
 			</ul>
 		</div>
-		
+
 		<div id="NewSite" class="wrapper-dropdown-3" tabindex="3">
 			<span>Choose mirror</span>
 			<ul class="dropdown">
@@ -163,7 +163,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
   <footer>
  	<div class="row">
     	<div class="nine columns">
-     		
+
             <div class="row">
 
         		<div class="two column">
@@ -190,7 +190,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
                     <li><a href="http://www.linuxdeepin.com/forum/mail-lists">Mailing list</a></li>
                     <li><a href="#">Links</a></li>
 				</ul>
-            </div> 
+            </div>
             <div class="two column" style="width:25%">
         	<ul class="side-nav">
             <li class="heading"><a href="business.en.html">Business</a></li>
@@ -199,30 +199,30 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
 			<li><a href="#">Website development</a></li>
             <li><a href="#">Intelligent electronics</a></li>
 			</ul>
-        		</div> 
+        		</div>
         	<div class="three column social">
                 <a href="http://www.facebook.com/linuxdeepin" class="social-icon facebook" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Facebook', 1, true]);"></a>
                 <a href="https://twitter.com/linuxdeepin" class="social-icon twitter" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Twitter', 1, true]);"></a>
                 <a href="http://us.linkedin.com/company/linuxdeepin" class="social-icon linkedin" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'LinkedIn', 1, true]);"></a>
                 <a href="https://plus.google.com/116653545968070015420/posts" class="social-icon google" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Googleplus', 1, true]);"></a>
                 <a href="http://www.youtube.com/linuxdeepin" class="social-icon youtube" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Youtube', 1, true]);"></a>
-        	</div> 
-        		
+        	</div>
+
         	</div>
         </div>
 
 <!--End mc_embed_signup-->
-        
-<p>Room 203, Wenxin Building, Optics Valley Core Center, Optics Valley Avenue<br> 
+
+<p>Room 203, Wenxin Building, Optics Valley Core Center, Optics Valley Avenue<br>
 Wuhan, China</p>
 
 <p>© 2011-2013 Wuhan Deepin Technology Co.,Ltd</p>
 
 
-        </div>   
+        </div>
    </div>
  </footer>
-  
+
 	<!-- Included JS Files (Compressed) --> <script src="js/foundation.js"></script>
 	<!-- Initialize JS Plugins --> <script src="js/app.js"></script>
 	<script src="js/utils.js"></script>
@@ -238,14 +238,14 @@ Wuhan, China</p>
         var opt_site = {'Official mirror' : 'offical', 'China' : 'utsc'};
         var opt_lang = {'English' : 'en', 'Simplified Chinese' : 'cn', 'Traditional Chinese' : 'tw'};
         var opt_bit  = {'64 bit' : 'amd64', '32 bit' : 'i386'};
-        
+
         list = find_sub_tag_elements("NewSite", "ul")[0];
         fill_ul_with_dic(list, opt_site);
         list = find_sub_tag_elements("NewLang", "ul")[0];
         fill_ul_with_dic(list, opt_lang);
         list = find_sub_tag_elements("NewBit", "ul")[0];
         fill_ul_with_dic(list, opt_bit);
-        
+
         list = find_sub_tag_elements("OldSite", "ul")[0];
         fill_ul_with_dic(list, opt_site);
         list = find_sub_tag_elements("OldLang", "ul")[0];
@@ -254,7 +254,7 @@ Wuhan, China</p>
         fill_ul_with_dic(list, opt_bit);
         list = find_sub_tag_elements("OldVer", "ul")[0];
         fill_ul_with_list(list, opt_old_vers);
-        
+
         var last_clicked = null;
 		function DropDown(el) {
 			this.dd = el;
@@ -267,7 +267,7 @@ Wuhan, China</p>
 		DropDown.prototype = {
 			initEvents : function() {
 				var obj = this;
-		
+
                 obj.dd.on('click', function(event){
                     if (isExists(last_clicked) && last_clicked !== this)
                         last_clicked.classList.remove('active');
@@ -275,7 +275,7 @@ Wuhan, China</p>
                     last_clicked = this;
                     return false;
                 });
-            
+
                 obj.opts.on('click',function(){
                     var opt = $(this);
                     obj.val = opt.text();
@@ -290,7 +290,7 @@ Wuhan, China</p>
 				return this.index;
 			}
 		}
-		
+
 		$(function() {
 			var NewBit  = new DropDown( $('#NewBit') );
 			var NewLang = new DropDown( $('#NewLang') );
@@ -317,7 +317,7 @@ Wuhan, China</p>
                 key = opt_site[NewSite.getValue()] + '_' + opt_lang[NewLang.getValue()] + '_' + _CURRENT_VER_ + '_' + opt_bit[NewBit.getValue()];
                 jump_to_download(key);
             });
-            
+
             // download button for old versions
             $('#download_old').click(function () {
                 if ( ! check_unselected(OldVer))

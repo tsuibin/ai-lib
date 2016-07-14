@@ -26,45 +26,45 @@
 	<div class="row">
     	<div id="upper-nav-links">
         	<ul>
-           	<li><a href="#" id="change_to_chinese">中文</a></li>    
+           	<li><a href="#" id="change_to_chinese">中文</a></li>
             <li><a href="#" id="change_to_english">ENGLISH</a></li>
-            <li><a href="http://planet.linuxdeepin.com">博客</a></li>      
+            <li><a href="#">博客</a></li>
             </ul>
         </div>
 </div>
 </section>
- 	
+
 <nav id="main-nav" class="row">
 
-  	
+
     <div id="logo" class="columns" style="width:33%">
     	<a href=""><img src="img/logo.png" alt="Formstack Online Form Builder"></a>
     </div>
-    
+
 	<div id="site-links" class="columns" style="width:42%">
     	<ul class="nav-bar" id="mobile-submenu">
   			<li ><a href="index.cn.html">首页</a></li>
             <!-- <li><a href="#">特性</a></li> -->
-            <li class="has-flyout" style="display: inline;"><a href="/forum">社区</a>
+            <li class="has-flyout" style="display: inline;"><a href="#">社区</a>
             	<ul style="display: none;" class="flyout">
-                <li><a href="/forum">论坛</a></li>
-                <li><a href="http://wiki.linuxdeepin.com">百科</a></li>
-                <li><a href="/mantis">BUG管理</a></li>
+                <li><a href="#">论坛</a></li>
+                <li><a href="#">百科</a></li>
+                <li><a href="#">BUG管理</a></li>
                 </ul>
             </li>
             <li><a href="download.cn.html">下载</a></li>
-   			
+
    			<li><a href="business.cn.html">商务合作</a></li>
 		</ul>
     </div>
-    
+
     <div id="trial-login" class="three columns">
-        <a href="http://e.weibo.com/linuxdeepinnew" class="button orange login">官方微博</a>
+        <a href="#" class="button orange login">官方微博</a>
         <a href="download.cn.html" class="button green trial">立即试用</a>
  	</div>
-    
+
 </nav>
- 
+
 </header>
 
 <section class="darkgray hero" style="padding:0;">
@@ -83,7 +83,7 @@
 			<ul class="dropdown">
 			</ul>
 		</div>
-		
+
 		<div id="NewSite" class="wrapper-dropdown-3" tabindex="3">
 			<span>选择下载站点</span>
 			<ul class="dropdown">
@@ -164,7 +164,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
   <footer>
  	<div class="row">
     	<div class="nine columns">
-     		
+
             <div class="row">
 
         		<div class="two column">
@@ -191,7 +191,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
                     <li><a href="http://www.linuxdeepin.com/forum/mail-lists">邮件列表</a></li>
                     <li><a href="#">友情链接</a></li>
 				</ul>
-            </div> 
+            </div>
             <div class="two column">
         	<ul class="side-nav">
             <li class="heading"><a href="business.cn.html">商业合作</a></li>
@@ -200,27 +200,27 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
 			<li><a href="#">商业网站开发</a></li>
             <li><a href="#">智能家电</a></li>
 			</ul>
-        		</div> 
+        		</div>
         	<div class="three column social">
                 <a href="http://www.facebook.com/linuxdeepin" class="social-icon facebook" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Facebook', 1, true]);"></a>
                 <a href="https://twitter.com/linuxdeepin" class="social-icon twitter" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Twitter', 1, true]);"></a>
                 <a href="http://us.linkedin.com/company/linuxdeepin" class="social-icon linkedin" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'LinkedIn', 1, true]);"></a>
                 <a href="https://plus.google.com/116653545968070015420/posts" class="social-icon google" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Googleplus', 1, true]);"></a>
                 <a href="http://www.youtube.com/linuxdeepin" class="social-icon youtube" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Interactions', 'Footer', 'Youtube', 1, true]);"></a>
-        	</div> 
-        		
+        	</div>
+
         	</div>
         </div>
 
 <!--End mc_embed_signup-->
-        
-<p>中国·武汉 <br> 
+
+<p>中国·武汉 <br>
 光谷大道光谷芯中心文馨楼203室</p>
 
-<p>© 2011-2013 Deepin Co.Ltd</p>    
+<p>© 2011-2013 Deepin Co.Ltd</p>
 
 
-        </div>   
+        </div>
    </div>
  </footer>
 	<!-- Included JS Files (Compressed) --> <script src="js/foundation.js"></script>
@@ -238,14 +238,14 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
         var opt_site = {'官方站点' : 'offical', '国内镜像' : 'utsc'};
         var opt_lang = {'简体版' : 'cn', '繁体版' : 'tw', '英文版' : 'en'};
         var opt_bit  = {'64位' : 'amd64', '32位' : 'i386'};
-        
+
         list = find_sub_tag_elements("NewSite", "ul")[0];
         fill_ul_with_dic(list, opt_site);
         list = find_sub_tag_elements("NewLang", "ul")[0];
         fill_ul_with_dic(list, opt_lang);
         list = find_sub_tag_elements("NewBit", "ul")[0];
         fill_ul_with_dic(list, opt_bit);
-        
+
         list = find_sub_tag_elements("OldSite", "ul")[0];
         fill_ul_with_dic(list, opt_site);
         list = find_sub_tag_elements("OldLang", "ul")[0];
@@ -254,7 +254,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
         fill_ul_with_dic(list, opt_bit);
         list = find_sub_tag_elements("OldVer", "ul")[0];
         fill_ul_with_list(list, opt_old_vers);
-        
+
         var last_clicked = null;
 		function DropDown(el) {
 			this.dd = el;
@@ -267,7 +267,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
 		DropDown.prototype = {
 			initEvents : function() {
 				var obj = this;
-		
+
                 obj.dd.on('click', function(event){
                     if (isExists(last_clicked) && last_clicked !== this)
                         last_clicked.classList.remove('active');
@@ -275,7 +275,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
                     last_clicked = this;
                     return false;
                 });
-            
+
                 obj.opts.on('click',function(){
                     var opt = $(this);
                     obj.val = opt.text();
@@ -290,7 +290,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
 				return this.index;
 			}
 		}
-		
+
 		$(function() {
 			var NewBit  = new DropDown( $('#NewBit') );
 			var NewLang = new DropDown( $('#NewLang') );
@@ -317,7 +317,7 @@ rsync -av --delete --delete-after cdimage.linuxdeepin.com::releases/ /var/www/de
                 key = opt_site[NewSite.getValue()] + '_' + opt_lang[NewLang.getValue()] + '_' + _CURRENT_VER_ + '_' + opt_bit[NewBit.getValue()];
                 jump_to_download(key);
             });
-            
+
             // download button for old versions
             $('#download_old').click(function () {
                 if ( ! check_unselected(OldVer))
