@@ -5,7 +5,7 @@ function navMenu()
             <div id="upper-nav-links"> \
                 <ul> \
                 <li><a href="#" id="change_to_chinese">中文</a></li> \
-                <li><a href="#" id="change_to_english">ENGLISH</a></li> \
+                <li><a href="#" id="change_to_english_">ENGLISH</a></li> \
                 <li><a href="#">博客</a></li> \
                 </ul> \
             </div> \
