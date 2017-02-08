@@ -13,18 +13,18 @@ function navMenu()
 </section> \
 <nav id="main-nav" class="row"> \
                 <div id="logo" class="columns" style="width:33%"> \
-    	<a href=""><img src="img/logo.png" alt="Formstack Online Form Builder"></a> \
+    	<a href=""><img src="img/logo_o2ee.png" alt="Formstack Online Form Builder"></a> \
     </div> \
             <div id="site-links" class="columns" style="width:42%"> \
     	<ul class="nav-bar" id="mobile-submenu"> \
             <li class="has-flyout" style="display: inline;"><a href="index.cn.html">首页</a> \
             	<ul style="display: none;" class="flyout"> \
-                <li><a href="http://bbs.o2ee.com">论坛</a></li> \
+                <li><a href="#">论坛</a></li> \
                 </ul> \
             </li>  \
             <li class="has-flyout" style="display: inline;"><a href="#">智能物联</a> \
             	<ul style="display: none;" class="flyout"> \
-                <li><a href="#">换热器</a></li> \
+                <li><a href="#">监控管理系统</a></li> \
                      \
                 <!-- <li><a href="#">百科</a></li> \
                 <li><a href="#">BUG管理</a></li> --> \
