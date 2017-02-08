@@ -19,12 +19,15 @@ function navMenu()
     	<ul class="nav-bar" id="mobile-submenu"> \
             <li class="has-flyout" style="display: inline;"><a href="index.cn.html">首页</a> \
             	<ul style="display: none;" class="flyout"> \
-                <li><a href="#">论坛</a></li> \
+                <li><a href="#">关于我们</a></li> \
                 </ul> \
             </li>  \
-            <li class="has-flyout" style="display: inline;"><a href="#">智能物联</a> \
+            <li class="has-flyout" style="display: inline;"><a href="#">产品中心</a> \
             	<ul style="display: none;" class="flyout"> \
-                <li><a href="#">监控管理系统</a></li> \
+                <li><a href="#">充电桩运营系统</a></li> \
+                <li><a href="#">发电机监控系统</a></li> \
+                <li><a href="#">换热器管理系统</a></li> \
+                <li><a href="#">Rapid开发套件</a></li> \
                      \
                 <!-- <li><a href="#">百科</a></li> \
                 <li><a href="#">BUG管理</a></li> --> \
@@ -36,7 +39,7 @@ function navMenu()
                 <li><a href="#">直流桩</a></li> \
                 </ul> \
             </li> \
-   			<li><a href="#">商务合作</a></li> \
+   			<li><a href="#">联系我们</a></li> \
 		</ul> \
     </div> \
     <div id="trial-login" class="three columns"> \
