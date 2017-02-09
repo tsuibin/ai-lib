@@ -39,7 +39,7 @@ function navMenu()
                 <li><a href="#">直流桩</a></li> \
                 </ul> \
             </li> \
-   			<li><a href="#">联系我们</a></li> \
+   			<li><a href="contact.cn.html">联系我们</a></li> \
 		</ul> \
     </div> \
     <div id="trial-login" class="three columns"> \
@@ -49,3 +49,4 @@ function navMenu()
 </nav>';
     document.getElementById("header").innerHTML=menu;
 }
+navMenu();
