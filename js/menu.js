@@ -25,9 +25,12 @@ function navMenu()
             <li class="has-flyout" style="display: inline;"><a href="#">产品中心</a> \
             	<ul style="display: none;" class="flyout"> \
                 <li><a href="#">充电桩运营系统</a></li> \
-                <li><a href="#">发电机监控系统</a></li> \
-                <li><a href="#">换热器管理系统</a></li> \
                 <li><a href="#">Rapid开发套件</a></li> \
+                <li><a href="#">实时数据库</a></li> \
+                <li><a href="#">趋势分析工具</a></li> \
+                <li><a href="#">OPC Server</a></li> \
+                <li><a href="#">实时监控平台</a></li> \
+                <li><a href="#">组态工具</a></li> \
                      \
                 <!-- <li><a href="#">百科</a></li> \
                 <li><a href="#">BUG管理</a></li> --> \
